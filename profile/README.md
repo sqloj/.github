@@ -8,9 +8,9 @@ SQLOJ 是一个SQL语句在线评判系统。
 
 后端的技术选型 [Spring Boot](https://spring.io/projects/spring-boot) 和 [MyBatis](https://mybatis.org/mybatis-3/zh/index.html)，数据库选择 [MariaDB](https://mariadb.org/)。
 
-评测端目前支持两种，MariaDB 和 H2 数据库。未来可能支持更多。
+评测端目前支持三种，SqlServer，MariaDB 和 H2 数据库，未来可能支持更多。
 
-![image](https://user-images.githubusercontent.com/42564206/169650424-bb2c8d11-fed6-442d-a271-f808f1ef97fc.png)
+![Snipaste_2022-06-13_19-35-26](https://user-images.githubusercontent.com/86198650/173346167-d62606bb-a363-48bd-b5ce-b91c0c735417.png)
 
 
 ## 部署
