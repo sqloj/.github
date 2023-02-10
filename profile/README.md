@@ -8,7 +8,7 @@ SQLOJ 是一个SQL语句在线评判系统。
 
 后端的技术选型 [Spring Boot](https://spring.io/projects/spring-boot) 和 [MyBatis](https://mybatis.org/mybatis-3/zh/index.html)，数据库选择 [MariaDB](https://mariadb.org/)。
 
-评测端目前支持三种，SqlServer，MariaDB 和 H2 数据库，未来可能支持更多。
+评测端目前支持四种，SqlServer，MariaDB ，Redis和 H2 数据库，未来可能支持更多。
 
 ![Snipaste_2022-06-13_19-35-26](https://user-images.githubusercontent.com/86198650/173346167-d62606bb-a363-48bd-b5ce-b91c0c735417.png)
 
@@ -17,7 +17,7 @@ SQLOJ 是一个SQL语句在线评判系统。
 
 部署使用 [Docker](https://www.docker.com/)，配置环境更简单，部署起来更方便。
 
-请确认已安装 Docker 和 Docker Compose。然后执行
+请确认已安装 Docker 和 Docker Compose，然后执行：
 
 ```shell
 $ git clone https://github.com/sqloj/sqloj-docker.git
